@@ -42,7 +42,7 @@ function App() {
       <div
         className="preview"
         style={styles.preview}
-        dangerouslySetInnerHTML={{ __html: html }}
+        dangerouslySetInnerHTML={{ __html: html || "" }}
       />
     </div>
   );
